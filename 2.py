@@ -1,15 +1,17 @@
 #class list in python
-'''
+
 x = 'ali'
-x.upper()ا#اعلى
+''' اعلىupper '''
+x.upper()
 print(x)
 
 h = [1,2,3,4]
-h.append(5)#اضافة
+''' append add to list اضافة '''
+h.append(5)
 print(h)
-'''
 
-'''
+
+
 class Calculator:
 
     def sum(self,x,y):
@@ -20,18 +22,18 @@ class Calculator:
         print(x*y)
 
     #constructor المنشى
-
-    def __init__(self):#عنداخذ قيمة من الكلاس تشتغل هذه الدالة
+''' عنداخذ قيمة من الكلاس تشتغل هذه الدالة '''
+    def __init__(self):
         print('Welcom')
 
 cl = Calculator()
 #cl.sum(3,5)
 #cl.mul(4,4)
-'''
+
 
 
 #inheritance class in python
-'''
+
 class Calculator:
     
     def sum(self,x,y):
@@ -51,9 +53,9 @@ s1 = SciCalculator()
 s1.sum(2,3)
 s1.mul(4,5)
 s1.power(2,3)
-'''
 
-'''
+
+
 class A:
     def do(self):
         print('in A')
@@ -75,7 +77,7 @@ o1 = D()
 print(D.mro())#طريقة عمل الميثود 
 o1.do()
 
-'''
+
 
 class Student:
 
